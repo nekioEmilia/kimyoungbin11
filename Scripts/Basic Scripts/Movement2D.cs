@@ -6,7 +6,7 @@ public class Movement2D : MonoBehaviour
 {
     [SerializeField]
     private float jumpForce = 8.0f;
-    private Rigidbody2D rigid2D;
+    public Rigidbody2D rigid2D;
 
     [SerializeField]
     private LayerMask groundLayer; // 바닥 체크를 위한 충돌 레이어
